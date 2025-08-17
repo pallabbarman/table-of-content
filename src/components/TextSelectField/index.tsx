@@ -17,7 +17,7 @@ const TextSelectField = ({
 }: TextSelectFieldProps) => {
     return (
         <TextField label={label} fullWidth={fullWidth}>
-            <Select fullWidth={fullWidth} className="!m-0" {...props}>
+            <Select fullWidth={fullWidth} {...props}>
                 {children}
             </Select>
         </TextField>

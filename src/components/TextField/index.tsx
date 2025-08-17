@@ -13,7 +13,7 @@ const TextField = ({
 }: TextFieldProps) => {
     return (
         <div
-            className={`group relative m-4 ${fullWidth ? 'max-w-full' : 'max-w-fit'}`}
+            className={`group relative ${fullWidth ? 'max-w-full' : 'max-w-fit'}`}
         >
             <div className="relative flex items-center">
                 <input

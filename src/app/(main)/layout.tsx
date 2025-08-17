@@ -5,7 +5,7 @@ export interface MainLayoutProps {
 }
 
 const MainLayout = ({ children }: MainLayoutProps) => {
-    return <div className="container mx-auto px-4">{children}</div>;
+    return <div className="container mx-auto px-4 py-8">{children}</div>;
 };
 
 export default MainLayout;

@@ -8,6 +8,7 @@ export default {
             black: 'var(--black)',
             gray: 'var(--gray)',
             sky: 'var(--sky)',
+            red: 'var(--red)',
         },
         extend: {},
     },

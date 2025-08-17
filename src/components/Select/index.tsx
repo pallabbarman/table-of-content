@@ -25,7 +25,7 @@ const Select = ({
     return (
         <div
             className={classNames(
-                `group relative m-4 ${fullWidth ? 'max-w-full' : 'max-w-fit'}`,
+                `group relative ${fullWidth ? 'max-w-full' : 'max-w-fit'}`,
                 className
             )}
         >
