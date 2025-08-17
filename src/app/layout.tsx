@@ -1,9 +1,9 @@
 import type { Metadata } from 'next';
-import { Montserrat } from 'next/font/google';
+import { Open_Sans } from 'next/font/google';
 import { ReactNode } from 'react';
 import './globals.css';
 
-const montserrat = Montserrat({
+const montserrat = Open_Sans({
     weight: ['400', '500', '600', '700'],
     subsets: ['latin'],
 });

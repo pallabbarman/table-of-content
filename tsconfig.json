@@ -20,7 +20,10 @@
         ],
         "baseUrl": "./src",
         "paths": {
+            "app/*": ["app/*"],
             "components/*": ["components/*"],
+            "icons/*": ["icons/*"],
+            "test_utils/*": ["test_utils/*"],
             "utils/*": ["utils/*"]
         },
         "types": ["vitest/globals"]
